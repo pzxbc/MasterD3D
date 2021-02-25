@@ -3,15 +3,16 @@
   <ImportGroup Label="PropertySheets" />
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
-    <OutDir>$(SolutionDir)..\vs2017-build\$(ProjectName)\$(Platform)\$(Configuration)\</OutDir>
-    <IntDir>$(SolutionDir)..\vs2017-build\$(ProjectName)\obj\$(Platform)\$(Configuration)\</IntDir>
+    <OutDir>$(SolutionDir)..\vs2017-build\bin\</OutDir>
+    <IntDir>$(SolutionDir)..\vs2017-build\obj\$(ProjectName)\$(Platform)\$(Configuration)\</IntDir>
+    <TargetName>$(ProjectName)_$(Platform)_$(Configuration)</TargetName>
   </PropertyGroup>
   <ItemDefinitionGroup>
     <Link>
       <SubSystem>Windows</SubSystem>
     </Link>
     <BuildLog>
-      <Path>$(SolutionDir)..\vs2017-build\$(ProjectName)\$(Platform)_$(Configuration)_$(MSBuildProjectName).log</Path>
+      <Path>$(SolutionDir)..\vs2017-build\build_logs\$(ProjectName)\$(Platform)_$(Configuration)_$(MSBuildProjectName).log</Path>
     </BuildLog>
   </ItemDefinitionGroup>
   <ItemGroup />
