@@ -23,6 +23,7 @@
     <ProjectGuid>{FD4C054C-A623-4F47-B225-253266CF48F2}</ProjectGuid>
     <RootNamespace>BasicWin32ObjectOriented</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <ProjectName>02-BasicWin32ObjectOriented</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
